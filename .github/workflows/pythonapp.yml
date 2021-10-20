@@ -17,4 +17,4 @@ jobs:
       run: |
         echo "${{ secrets.DOCKERPW }}" | docker login -u "hariprasad326" --password-stdin
         docker image build -t hariprasad326/flaskapp:v1 .
-        docker push dab8106/gitaction:v1
+        docker push hariprasad326/flaskapp:v1
