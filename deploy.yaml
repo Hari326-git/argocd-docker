@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: webmagic1/flaskapp:v1
+        image: hariprasad326/flaskapp:v1
